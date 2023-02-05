@@ -1,0 +1,32 @@
+.product{
+    height: 50rem;
+    width: 100%;
+    background-color: red;
+    display: flex;
+
+
+    .image{
+        height: 100%;
+        width: 60%;
+        background-color: aqua;
+
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            opacity: 0.8;
+        }
+    }
+
+    .product-to-buy{
+        height: 100%;
+        width: 40%;
+        background-color: white;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        // background-image: url(bg-image.png);
+        // object-fit: contain;
+    }
+}

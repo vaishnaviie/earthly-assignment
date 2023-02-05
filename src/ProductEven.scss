@@ -1,0 +1,30 @@
+.product-even{
+
+    height: 50rem;
+    width: 100%;
+    background-color: red;
+    display: flex;
+
+    .video-even{
+        height: 100%;
+        width: 60%;
+        background-color: white;
+
+        video{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            opacity: 0.7;
+        }
+    }
+
+    .product-to-buy-even{
+        height: 100%;
+        width: 40%;
+        background-color: white;
+
+        
+    }
+    
+
+}

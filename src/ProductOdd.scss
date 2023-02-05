@@ -1,0 +1,29 @@
+.product-odd{
+
+    height: 50rem;
+    width: 100%;
+    background-color: red;
+    display: flex;
+
+    .product-to-buy-odd{
+        height: 100%;
+        width: 40%;
+        background-color: white;
+
+        
+    }
+    
+    .video-odd{
+        height: 100%;
+        width: 60%;
+        background-color: white;
+
+        video{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            opacity: 0.7;
+        }
+    }
+}
+
