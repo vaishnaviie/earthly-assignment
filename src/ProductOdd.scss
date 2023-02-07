@@ -26,14 +26,14 @@
 
         .product-detail{
                 height: 35rem;
-                width: 44rem;
+                width: 38rem;
                 background-color: white;
                 position: absolute;
                 left: 8%;
                 top: 11%;
                 border-radius: 15px;
                 // box-shadow: 5px 5px 20px 5px rgb(180, 173, 173);
-                // border: 2px solid red;
+                border: 2px solid red;
                 // display: flex;
 
             
@@ -50,8 +50,8 @@
                 display: flex;
 
                 .up-front-image{
-                    height: 20rem;
-                    width: 20rem;
+                    height: 16rem;
+                    width: 16rem;
                     margin: 1rem;
                     margin-top: 2rem;
                     border-radius: 15px;
