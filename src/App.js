@@ -26,7 +26,7 @@ function App() {
 
       <ProductEven videoEven={loofah} bgImage={bgImage} />
 
-      <ProductOdd videoOdd={straw} bgImage={flippedBgImage} upFrontImage={strawImage} heading={"Reusable Bamboo Straws"} para1={"Sip sip sip!"} para2={"We collaborated with artisans in Veitnam, Earthly Organic Bamboo Straws are 100% Compostable, Vegan and BPA free. They can be reused, thrown in a compost bin, or even in your backyard. Serve with cold beverages like ice tea, cold coffee and many more. "} />
+      <ProductOdd videoOdd={straw} bgImage={flippedBgImage} upFrontImage={strawImage} heading={"Reusable Bamboo Straws"}  para2={"We collaborated with artisans in Veitnam, Earthly Organic Bamboo Straws are 100% Compostable, Vegan and BPA free. They can be reused, thrown in a compost bin, or even in your backyard. Serve with cold beverages like ice tea, cold coffee and many more. "} />
 
       <ProductEven videoEven={toothbrush} bgImage={bgImage}/>
       <Footer/>

@@ -13,7 +13,7 @@ const ProductOdd = ({videoOdd, bgImage,upFrontImage,heading, para1, para2}) => {
             <img className='up-front-image' src={upFrontImage} alt="" />
 
             <p className='Para'>
-              <p style={{fontWeight:'bold'}}>{para1}</p>
+              <p style={{fontWeight:'bold',paddingBottom:"2rem", paddingTop:"2rem"} }>{para1}</p>
               
               <p>{para2}</p>
             </p>
