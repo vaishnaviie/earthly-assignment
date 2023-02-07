@@ -1,13 +1,13 @@
 .product-even{
 
-    height: 45rem;
+    height: 50rem;
     width: 100%;
     background-color: red;
     display: flex;
 
     .video-even{
         height: 100%;
-        width: 60%;
+        width: 50%;
         background-color: white;
 
         video{
@@ -20,10 +20,23 @@
 
     .product-to-buy-even{
         height: 100%;
-        width: 40%;
+        width: 50%;
         background-color: white;
 
-        
+        .bg-image{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            opacity: 0.8;
+        }
+
+        .up-front-image{
+            height: 10rem;
+            width: 10rem;
+            // background-color: red;
+            // position: relative;
+            // right: 50%;
+        }
     }
     
 

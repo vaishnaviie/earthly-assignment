@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProductEven.scss';
 
-const ProductEven = ({videoEven}) => {
+const ProductEven = ({videoEven,bgImage,upFrontImage}) => {
   return (
     <div className='product-even'>
         <div className='video-even'>
@@ -9,6 +9,8 @@ const ProductEven = ({videoEven}) => {
         </div>
 
         <div className='product-to-buy-even'>
+          <img className='bg-image' src={bgImage} alt="" />
+          {/* <img className='up-front-image' src={upFrontImage} alt="" /> */}
 
         </div>
 
