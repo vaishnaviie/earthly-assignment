@@ -1,95 +1,109 @@
-.product{
-    height: 50rem;
-    width: 100%;
-    background-color: red;
-    display: flex;
-
-
-    .image{
-        height: 100%;
-        width: 50%;
-        background-color: aqua;
-
-        img{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-            opacity: 0.8;
-        }
+.our-products-container{
+    // background-color: pink;
+    .our-products{
+        padding: 2rem 0rem;
+        font-size: 4rem;
+        background-color: rgb(131, 196, 131);
+        text-align: center;
+        border-radius: 100rem;
+        margin: 2rem 20rem;
     }
-
-    .product-to-buy{
-        height: 100%;
-        width: 50%;
-        background-color: white;
-        position: relative;
-
-        .bg-image{
+    
+    .product{
+        height: 50rem;
+        width: 100%;
+        background-color: red;
+        display: flex;
+        // z-index: 20;
+        border-top: 2px solid black;
+    
+    
+        .image{
             height: 100%;
-            width: 100%;
-            object-fit: cover;
-            opacity: 0.8;
+            width: 50%;
+            background-color: aqua;
+    
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                opacity: 0.8;
+            }
         }
-
-        .product-detail{
-                height: 35rem;
-                width: 38rem;
-                background-color: white;
-                position: absolute;
-                left: 8%;
-                top: 12%;
-                border-radius: 15px;
-                // box-shadow: 5px 5px 20px 5px rgb(180, 173, 173);
-                // border: 2px solid red;
-                // display: flex;
-
-            
+    
+        .product-to-buy{
+            height: 100%;
+            width: 50%;
+            background-color: white;
+            position: relative;
+    
+            .bg-image{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                opacity: 0.8;
             }
-            h1{
-                padding-bottom: 4rem;
-                text-align: center;
-                font-size: 2.5rem;
-                color: rgb(15, 92, 15);
-                font-family: 'Roboto', sans-serif;
-            }
-
-            .sub-product-detail{
-                display: flex;
-
-                
-
-                .Para{
-                    p{
-                        // padding-top: 2rem;
-                        padding-left: 2rem;
-                        font-size: 1.5rem;
-                        // font-family: 'Dancing Script', cursive;
-                        // font-family: 'Roboto', sans-serif;
-                        font-family: 'Source Sans Pro', sans-serif;
-                    }
-                }
-
-                .up-front-image{
-                    height: 16rem;
-                    width: 16rem;
-                    margin: 1rem;
-                    margin-top: 3rem;
-                    margin-left: 3rem;
+    
+            .product-detail{
+                    height: 35rem;
+                    width: 38rem;
+                    background-color: white;
+                    position: absolute;
+                    left: 8%;
+                    top: 12%;
                     border-radius: 15px;
-                    box-shadow: 5px 5px 50px 5px green;
-                }
-            
-
+                    // box-shadow: 5px 5px 20px 5px rgb(180, 173, 173);
+                    // border: 2px solid red;
+                    // display: flex;
+    
                 
+                }
+                h1{
+                    padding-bottom: 4rem;
+                    text-align: center;
+                    font-size: 2.5rem;
+                    color: rgb(15, 92, 15);
+                    font-family: 'Roboto', sans-serif;
+                }
+    
+                .sub-product-detail{
+                    display: flex;
+    
+                    
+    
+                    .Para{
+                        p{
+                            // padding-top: 2rem;
+                            padding-left: 2rem;
+                            font-size: 1.5rem;
+                            // font-family: 'Dancing Script', cursive;
+                            // font-family: 'Roboto', sans-serif;
+                            font-family: 'Source Sans Pro', sans-serif;
+                        }
+                    }
+    
+                    .up-front-image{
+                        height: 16rem;
+                        width: 16rem;
+                        margin: 1rem;
+                        margin-top: 3rem;
+                        margin-left: 3rem;
+                        border-radius: 15px;
+                        box-shadow: 5px 5px 50px 5px green;
+                    }
+                
+    
+                    
+                }
+    
+            .btn{
+                height: 3rem;
+                width: 10rem;
+                margin-top: 2rem;
+                margin-left: 10%;
+                font-size: 1.5rem;
+                border-radius: 5rem;
             }
-
-        .btn{
-            height: 3rem;
-            width: 10rem;
-            margin-top: 2rem;
-            margin-left: 10%;
-            font-size: 1.5rem;
-            border-radius: 5rem;
         }
     }
 }

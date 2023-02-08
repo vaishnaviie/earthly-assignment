@@ -5,6 +5,8 @@ import bestSeller from './bestSeller.webp';
 
 const Products = ({bgImage,upFrontImage,heading, para1, para2}) => {
   return (
+    <div className='our-products-container'>
+    <h1 className='our-products'>Our Products</h1>
     <div className='product'>
         <div className='image'>
             <img src={bestSeller} alt="" />
@@ -31,6 +33,7 @@ const Products = ({bgImage,upFrontImage,heading, para1, para2}) => {
 
           </div>
         </div>
+    </div>
     </div>
   )
 }

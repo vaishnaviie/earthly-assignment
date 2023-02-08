@@ -1,14 +1,51 @@
 footer{
+    background-color: rgb(131, 196, 131);
     .contact{
         font-size: 1.5rem;
+        height: 100%;
+        width: 100%;
 
-        h1{
-            text-align: center;
+        .address{
+            h1{
+                text-align: center;
+                padding: 2rem 0rem;
+                font-size: 4rem;
+                // font-family: 'Dancing Script', cursive;
+                font-family: 'Roboto', sans-serif;
+                // font-family: 'Source Sans Pro', sans-serif;
+                
+            }
+            h4{
+                text-align: center;
+                font-family: 'Source Sans Pro', sans-serif;
+            }
+        }
+
+        
+
+        
+    }
+    .socials{
+        width: 30%;
+        text-align: center;
+        padding: 3rem;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+
+        img{
             
+            height: 4rem;
+            width: 4rem;
+            border-radius: 1rem;
+            box-sizing: border-box;
+            
+            &:hover{
+                height: 4.2rem ;
+                width: 4.2rem ;
+            }
         }
-        h4{
-            text-align: center;
-        }
+        
     }
 }
 
