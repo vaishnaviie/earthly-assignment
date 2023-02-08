@@ -29,8 +29,6 @@ const ProductEven = ({videoEven,bgImage,upFrontImage,heading, para1, para2}) => 
 
           </div>
 
-          
-
         </div>
 
     </div>

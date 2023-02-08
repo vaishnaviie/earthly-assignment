@@ -103,6 +103,16 @@
                 margin-left: 10%;
                 font-size: 1.5rem;
                 border-radius: 5rem;
+                background-color: green;
+                border: 2px solid white;
+                color: white;
+
+                &:hover{
+                    color: black;
+                    box-shadow: 5px 5px 50px 5px yellow;
+                    background-color: rgb(180, 241, 180);
+                    border: 2px solid green;
+                }
             }
         }
     }
